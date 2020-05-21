@@ -2,11 +2,7 @@
 
 The Swift implementation for GraphQL, a query language for APIs created by Facebook.
 
-[![Swift][swift-badge]][swift-url]
-
-[![CI][ci-badge-url]][ci-url]
-
-[![License][mit-badge]][mit-url]
+[![Swift][swift-badge]][swift-url] [![CI][ci-badge-url]][ci-url] [![License][mit-badge]][mit-url]
 
 Looking for help? Find resources [from the community](http://graphql.org/community/).
 

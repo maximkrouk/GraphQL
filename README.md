@@ -48,5 +48,5 @@ This project is released under the MIT license. See [LICENSE](LICENSE) for detai
 [swift-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: https://tldrlegal.com/license/mit-license
-[ci-badge-url]: https://github.com/maximkrouk/GraphQL/workflows/Swift/badge.svg
+[ci-badge-url]: https://github.com/maximkrouk/GraphQL/workflows/Build/badge.svg
 [ci-url]: https://github.com/maximkrouk/GraphQL/actions

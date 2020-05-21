@@ -1,3 +1,5 @@
+import Foundation
+
 /**
  * Given an arbitrary Error, presumably thrown while attempting to execute a
  * GraphQL operation, produce a new GraphQLError aware of the location in the
@@ -9,9 +11,11 @@ func locatedError(originalError: Error, nodes: [Node], path: IndexPath) -> Graph
     if let originalError = originalError as? GraphQLError {
         return originalError
     }
+    
+    let customMessage = (originalError as? SelfEncodableError).map(\.encoded)
 
     return GraphQLError(
-        message: String(describing: originalError),
+        message: customMessage ?? String(describing: originalError),
         nodes: nodes,
         path: path,
         originalError: originalError

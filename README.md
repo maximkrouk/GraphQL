@@ -4,11 +4,28 @@ The Swift implementation for GraphQL, a query language for APIs created by Faceb
 
 [![Swift][swift-badge]][swift-url]
 
-[![CI][ci-url]][ci-url]
+[![CI][ci-badge-url]][ci-url]
 
 [![License][mit-badge]][mit-url]
 
 Looking for help? Find resources [from the community](http://graphql.org/community/).
+
+## Installation
+
+Add the package to Your SwiftPM package dependencies:
+
+```swift
+.package(
+    url: "https://github.com/maximkrouk/GraphQL.git", 
+    from: "1.0.0-beta.1.0"
+)
+```
+
+then add `GraphQL` dependency to your target:
+
+```swift
+.product(name: "GraphQL", package: "GraphQL")
+```
 
 ## Graphiti
 
@@ -31,4 +48,5 @@ This project is released under the MIT license. See [LICENSE](LICENSE) for detai
 [swift-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: https://tldrlegal.com/license/mit-license
-[ci-url]: https://github.com/maximkrouk/GraphQL/workflows/Swift/badge.svg?branch=master
+[ci-badge-url]: https://github.com/maximkrouk/GraphQL/workflows/Swift/badge.svg
+[ci-url]: https://github.com/maximkrouk/GraphQL/actions
